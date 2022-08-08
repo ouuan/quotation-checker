@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 import glob from 'glob-promise';
-import { readFile, stat } from 'fs/promises';
+import { readFile } from 'fs/promises';
 import check from './check';
 
 let hasError = false;
@@ -9,13 +9,11 @@ let checked = false;
 
 (async () => {
   await Promise.all(process.argv.slice(1).map(async (arg) => {
-    const paths = await glob(arg).catch((e) => {
+    const paths = await glob(arg, { nodir: true }).catch((e) => {
       console.error(`glob error: [${arg}] (${e})`);
       process.exit(1);
     });
     await Promise.all(paths.map(async (path) => {
-      const stats = await stat(path);
-      if (!stats.isFile()) return;
       const content = await readFile(path, 'utf-8');
       const result = check(content);
       checked = true;
