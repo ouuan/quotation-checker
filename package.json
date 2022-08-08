@@ -1,0 +1,29 @@
+{
+  "name": "quotation-checker",
+  "version": "0.1.0",
+  "description": "Check whether quotation marks are in correct order.",
+  "author": "Yufan You",
+  "license": "Apache-2.0",
+  "bin": "dist/main.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsup src/main.ts",
+    "lint": "eslint . --ext .ts,.js --ignore-path .gitignore",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "glob": "^8.0.3",
+    "glob-promise": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "tsup": "^6.2.1",
+    "typescript": "^4.7.4",
+    "vitest": "^0.21.0"
+  }
+}
