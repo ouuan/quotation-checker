@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "glob": "8.1.0",
-    "glob-promise": "5.0.1"
+    "glob-promise": "6.0.2"
   },
   "devDependencies": {
     "@types/glob": "8.0.1",
