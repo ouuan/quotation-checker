@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 
-import glob from 'glob-promise';
+import glob from 'glob';
 import { readFile } from 'fs/promises';
 import check from './check';
 

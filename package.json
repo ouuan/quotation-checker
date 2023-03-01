@@ -9,11 +9,11 @@
   "scripts": {
     "build": "tsup src/main.ts",
     "lint": "eslint . --ext .ts,.js --ignore-path .gitignore",
+    "typecheck": "tsc --noEmit",
     "test": "vitest"
   },
   "dependencies": {
-    "glob": "8.1.0",
-    "glob-promise": "6.0.2"
+    "glob": "9.0.2"
   },
   "devDependencies": {
     "@types/glob": "8.1.0",
