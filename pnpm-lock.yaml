@@ -7,13 +7,13 @@ specifiers:
   eslint: 8.36.0
   eslint-config-airbnb-base: 15.0.0
   eslint-plugin-import: 2.27.5
-  glob: 9.2.1
+  glob: 9.3.2
   tsup: 6.6.3
   typescript: 4.9.5
   vitest: 0.29.7
 
 dependencies:
-  glob: 9.2.1
+  glob: 9.3.2
 
 devDependencies:
   '@types/glob': 8.1.0
@@ -1548,8 +1548,8 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /glob/9.2.1:
-    resolution: {integrity: sha512-Pxxgq3W0HyA3XUvSXcFhRSs+43Jsx0ddxcFrbjxNGkL2Ak5BAUBxLqI5G6ADDeCHLfzzXFhe0b1yYcctGmytMA==}
+  /glob/9.3.2:
+    resolution: {integrity: sha512-BTv/JhKXFEHsErMte/AnfiSv8yYOLLiyH2lTg8vn02O21zWFgHPTfxtgn1QRe7NRgggUhC8hacR2Re94svHqeA==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       fs.realpath: 1.0.0
