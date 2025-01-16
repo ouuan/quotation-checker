@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 import { readFile } from 'fs/promises';
-import glob from 'glob';
+import { glob } from 'glob';
 import check from './check';
 
 let hasError = false;
