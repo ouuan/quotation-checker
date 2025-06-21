@@ -13,7 +13,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "glob": "11.0.2"
+    "glob": "11.0.3"
   },
   "devDependencies": {
     "@types/glob": "8.1.0",
