@@ -16,7 +16,6 @@
     "glob": "11.1.0"
   },
   "devDependencies": {
-    "@types/glob": "8.1.0",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "eslint": "8.57.1",
