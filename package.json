@@ -13,7 +13,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "glob": "11.1.0"
+    "glob": "14.0.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.62.0",
